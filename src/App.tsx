@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
+import { Project } from "./config/data";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="h-fit p-8 flex justify-center items-center flex-col">
+      <h1 className="text-3xl lg:text-5xl font-bold text-center">
+        A compilation of all my other projects
+      </h1>
+      <p className="text-1xl mb-12 mt-4">
+        Jeffrey Bernadas © {new Date().getFullYear()}
+      </p>
+      <ul className="divide-y divide-gray-200 grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+        {Project.map((project) => (
+          <Card project={project} />
+        ))}
+      </ul>
     </div>
   );
 }
