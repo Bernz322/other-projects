@@ -23,7 +23,7 @@ const Card = ({ project }: any) => {
         </a>
       </figure>
 
-      <div className="flex justify-end items-center mr-4">
+      <div className="flex justify-end items-center mr-4 mt-4">
         <a
           href={project.urls.github}
           target="_blank"
