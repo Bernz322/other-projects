@@ -276,7 +276,7 @@ export const Project: IProject[] = [
     urls: {
       github:
         "https://github.com/Bernz322/electronics-projects/tree/main/Arduino/Automated_Customer_Counter",
-      demo: "https://github.com/Bernz322/electronics-projects",
+      demo: "https://github.com/Bernz322/electronics-projects/tree/main/Arduino/Automated_Customer_Counter",
     },
   },
   {
@@ -308,7 +308,7 @@ export const Project: IProject[] = [
     urls: {
       github:
         "https://github.com/Bernz322/electronics-projects/tree/main/AT89C2051-OJT/Button-and-Vibration-Sensor-Operated-Gate-System",
-      demo: "https://github.com/Bernz322/electronics-projects",
+      demo: "https://github.com/Bernz322/electronics-projects/tree/main/AT89C2051-OJT/Button-and-Vibration-Sensor-Operated-Gate-System",
     },
   },
   {
@@ -340,7 +340,7 @@ export const Project: IProject[] = [
     urls: {
       github:
         "https://github.com/Bernz322/electronics-projects/tree/main/AT89C2051-OJT/Basketball-Scoreboard",
-      demo: "https://github.com/Bernz322/electronics-projects",
+      demo: "https://github.com/Bernz322/electronics-projects/tree/main/AT89C2051-OJT/Basketball-Scoreboard",
     },
   },
 ];
